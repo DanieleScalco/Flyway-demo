@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://doxinets10:3306/prova_flyway_develop?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true
+    username: root
+    password:
+  flyway:
+    installed-by: daniele.scalco
+    locations: classpath:db/migration
+
